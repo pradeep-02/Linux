@@ -1,0 +1,7 @@
+4.Heap sort:
+------------
+#To find parent of any index: idx/2
+#To find child of any index: idx*2
+#To find sibling of give index: idx+1 
+#
+#

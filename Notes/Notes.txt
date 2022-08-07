@@ -1,0 +1,11 @@
+=====================
+#Memory Mapped files:
+=====================
+1.This is used to map memory space on disk into process address space.
+2.This way what ever will be there in the disk space, can be accessed in the process. 
+3.If process writes somethings on the space it will be replicated to the disk space.
+4.There are two types of memory mapping:
+	Shared: In this modification on the disk file is replicated in all the process address space, who ever mapped that disk 
+		space in its address space. This way related & un-related process can communicate.
+	Private: In this way, modification are not replicated, when process maps disk space to its address space	
+5.APIs: mmap()/msync()/munmap()

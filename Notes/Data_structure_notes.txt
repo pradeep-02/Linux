@@ -1,0 +1,58 @@
+================
+Points to cover:
+================
+Sorting:Bubble/insertion/selection/quick/heap/merge/
+Searching:Linear/binary/depth first/breadth first
+linked-list
+stack
+Array:Kadane/Floyd cycle detection/
+Tree: AVL/Spanning/Prim/
+What is a minimum spanning tree (MST)?
+Graph: Kruskal/Dijkstra/Bellman ford
+Give some examples greedy algorithms.
+What are some examples of divide and conquer algorithms?
+What are some examples of dynamic programming algorithms?
+Huffman coding algo/Euclid algo/Union Find algo
+Time & space complexity of all the above
+Hashing
+
+														=======
+														SORTING
+														=======
+
+______________
+1.Bubble Sort:
+--------------
+#It works like a bubble.
+#As bubble property is to come up, we need to put either max or min element on top,
+ until the length of the array.
+ //For assending order:
+#Start comparing the first element to adjcent element, and swap it if right element is lower.
+#We need to take two loop, first will start from 0 till last - 1(to keep atleast one element right side to compare)
+Second loop will start from 1 (to keep one element left side to compare) till last element.
+
+_________________
+2.Insertion sort:
+-----------------
+#The working is same like the name.
+#Lets think if we are sorting array in assending order.
+#As the name says, we have to scan the smallest element in the array and then swap it with the first element.
+#For finding the smallest element we will compare the adjcent elements and will record the smallest element's index number
+	and in the last we will replace it with the first non sorted element.
+	
+_________________	
+3.Selection sort:
+-----------------
+#Here first we have to select sorted sub array, thats why it is called selection sort.
+#First assume first element is sorted, and compare it with right one, it left element is greater then swap it.
+#Now we have two elements sorted(sorted sub array), we will selection third element and will start comparing it 
+	with sorted array from the right most element till left element. And we have to find the place for it.
+
+____________
+4.Heap sort:
+------------
+#
+#
+#
+#
+#
